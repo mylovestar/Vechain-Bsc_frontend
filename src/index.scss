@@ -1,0 +1,18 @@
+@font-face {
+    font-family: outfit;
+    src: url('fonts/Outfit-Light.ttf')format('woff');
+}
+
+body,
+html {
+    margin: 0;
+    font-family: outfit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url("../src/assets/background.svg");
+    background-size: cover;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

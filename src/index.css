@@ -1,0 +1,6 @@
+body,
+html {
+    /* background: linear-gradient(0deg, rgb(2, 36, 72), rgb(39, 62, 70)) 0% 0% / cover; */
+    background-image: url("../src/assets/background.png") !important;
+    background-size: cover;
+}

@@ -1,0 +1,50 @@
+.InputContainer {
+    // padding: 0rem;
+    // margin-left: 0rem;
+    // padding-left: 1.5rem;
+    position: flex;
+    label {
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: bold;
+        //    color: transparent;
+        // color: #fff;
+    }
+    input {
+        width: 85%;
+        height: 60px;
+        //   width: 465px;
+        color: white;
+        border: none;
+        display: flex;
+        padding: 0 0;
+        background-color: transparent;
+        // backdrop-filter: blur(13.961px);
+        // box-shadow: inset 0px 0px 22.0779px rgba(255, 255, 255, 0.05), inset 0px 1.2987px 1.2987px rgba(255, 255, 255, 0.15);
+        padding-top: 0.25rem;
+        outline: none;
+        font-size: 20px;
+        z-index: 1;
+        padding-left: 3%;
+        border-radius: 10px;
+        //    margin-top: -.2rem;
+        //    margin-right: 0rem;
+        //    margin-left: -165px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        //box-shadow: 0px -2px 46px -17px rgba(64, 53, 53, 0.75);
+        //-webkit-box-shadow: 0px -2px 46px -17px rgba(64, 53, 53, 0.75);
+        // -moz-box-shadow: 0px -2px 46px -17px rgba(64, 53, 53, 0.75);
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            //    margin: 0;
+        }
+        &:focus {
+            // outline: 2px solid #26c5eb;
+        }
+    }
+}

@@ -1,0 +1,301 @@
+.BridgeContainer {
+    max-width: 100%;
+    margin: 1rem 0rem 1rem 0rem;
+    margin-top: 30px;
+    border-radius: 2rem;
+    .SwapSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding-top: 0rem;
+        flex-direction: row;
+        margin-left: 20px;
+        margin-right: 20px;
+        .SwapIcon {
+            margin-top: 0rem;
+            margin-left: -28px;
+            margin-right: -28px;
+            z-index: 1;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        button {
+            width: 88%;
+            border: 1px solid white;
+            background: none;
+            box-shadow: 0px 4px 24px 1px rgba(35, 16, 94, 0.25);
+            backdrop-filter: blur(45px);
+            border-radius: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+    .SwapSubSection {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .ButtonSection {
+        text-align: end;
+        margin-right: 10px;
+        Button {
+            box-shadow: 0px 4px 24px 1px rgba(35, 16, 94, 0.25);
+            backdrop-filter: blur(45px);
+            background: #1ECBDD;
+            border-radius: 10px;
+            width: 44px;
+            height: 32px;
+            border: 0px;
+            color: white;
+            cursor: pointer;
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+}
+
+.Content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+    color: white;
+    border-bottom: 1px solid rgba(30, 203, 221, 1);
+}
+
+.SwapButton {
+    padding: 3px;
+    width: 370px;
+    height: 70px;
+    border: none;
+    border-radius: 13px;
+    background: linear-gradient(80.78deg, rgba(148, 255, 178, 0.56) 13.08%, rgba(100, 255, 154, 0.362724) 57.91%, rgba(13, 255, 110, 0) 137.25%);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.SwapButtonContainer {
+    text-align: center;
+    margin-top: 42px;
+}
+
+.arrow {
+    width: 30px;
+    margin: auto;
+    border-radius: 80px;
+}
+
+.balances {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.connectWallet {
+    display: block;
+    outline: none;
+    background: linear-gradient(90deg, rgba(148, 255, 178, 0.56) 7.07%, rgba(100, 255, 154, 0.362724) 65.09%, rgba(13, 255, 110, 0) 159.51%);
+    border-image-slice: 1;
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.swapcardtokenheadline {
+    text-transform: uppercase;
+    font-family: "Acumin-Pro-Bold","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.93em;
+    color: var(--font-color);
+    margin: 0px;
+    text-align: center;
+}
+
+.textcolorviolet {
+    color: #8933ef;
+}
+
+.textcolorpink {
+    color: #d201ba;
+}
+
+.walletAddress {
+    display: flex;
+    justify-content: space-between;
+    width: 63% !important;
+}
+
+.linkAddress {
+    margin: 5px;
+    color: #7dc796;
+    text-align: center;
+    &:hover {
+        color: #d201ba;
+        text-decoration: underline;
+    }
+}
+
+.HeaderContainer {
+    background: #2D2D2D80;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.25rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 80px;
+    flex-direction: row;
+    .BalanceSection {
+        display: flex;
+        align-items: center;
+        padding: 6px 6px;
+        border-radius: 13px;
+        margin-top: 0.25rem;
+        width: 100%;
+        img {
+            height: 60px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            margin-right: 0.5rem;
+        }
+        p {
+            margin: 0;
+            font-weight: 500;
+            color: #6ac4d7;
+            font-size: 32px;
+            letter-spacing: 3px;
+            padding-top: 0.7rem;
+            padding-left: 0.5rem;
+        }
+    }
+    .BridgeHeader {
+        border-radius: 20px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(12, 118, 191);
+        display: flex;
+        flex-flow: row nowrap;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 18px;
+        padding: 3px 18px;
+        width: fit-content;
+        margin: 0px 0.3rem;
+    }
+    .BridgeHeaderLink {
+        border-radius: 20px;
+        font-weight: 500;
+        color: #26c5eb;
+        display: flex;
+        flex-flow: row nowrap;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 18px;
+        padding: 3px 18px;
+        width: fit-content;
+        margin: 0px 0.3rem;
+    }
+}
+
+.BridgeHeader {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.BridgeBodyContainer {
+    padding: 1rem 1.5rem 0 1.5rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: max-content;
+    transition: 0.7s ease-in-out;
+    box-shadow: 0px 0px 22.0779px rgba(255, 255, 255, 0.05), 0px -1px 1.2987px rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-around;
+}
+
+.SellReceive {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.SellReceiveText {
+    margin-top: 5px;
+}
+
+.SellReceiveLogo {
+    width: 25px;
+}
+
+.priceGroup {
+    text-align: end;
+}
+
+.ShowMoreButton {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: rgba(30, 203, 221, 1);
+}
+
+.SwapText {
+    width: 12%;
+    color: white;
+    margin: auto;
+}
+
+.BalanceMax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputSection {
+    display: flex;
+    margin: auto;
+}
+
+.SellGroup {
+    display: flex;
+    width: 80%;
+    box-shadow: inset 0px 0px 22.0779px rgba(255, 255, 255, 0.05), inset 0px 1.2987px 1.2987px rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+}
+
+.ReceiveText {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: flex-end;
+}
+
+.ReceiveGroup {
+    display: flex;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }

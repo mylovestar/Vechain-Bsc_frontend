@@ -1,0 +1,48 @@
+.ButtonContainer {
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 10px;
+    .Button {
+        display: flex;
+        width: 100%;
+        margin: 0 0 0 0;
+        outline: none;
+        border: 2px solid #0000;
+        background: linear-gradient(#183363, #1a3867) padding-box, linear-gradient(178deg, #003CA9 0%, #00A8C5 100%) border-box;
+        border-image-slice: 1;
+        padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+        text-align: center;
+        align-items: center;
+        // letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 700;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 2rem;
+        transition: 0.1s ease-in-out;
+        &:hover {
+            background-color: transparent;
+            transform: scale(1);
+            cursor: pointer;
+            //          box-shadow: 0px 2px 8px 0px rgba(194, 170, 170, 0.75);
+            //           -webkit-box-shadow: 0px 2px 8px 0px rgba(194, 170, 170, 0.75);
+            //           -moz-box-shadow: 0px 2px 8px 0px rgba(194, 170, 170, 0.75);
+        }
+        &:active {
+            background-color: transparent;
+            // box-shadow: 0 0 0 1pt #26c5eb;
+            color: #26c5eb;
+            transform: scale(1);
+            //    border: 1px solid #d4af37;
+            cursor: pointer;
+        }
+        &:disabled {
+            background-color: #a6a6a6;
+            box-shadow: none;
+            cursor: no-drop;
+        }
+        .img {
+            width: 7%;
+        }
+    }
+}
